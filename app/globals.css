@@ -1,15 +1,19 @@
 @import "tailwindcss";
-
+@import "@heroui/styles"; 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+   /* Override any color variable */
+  --accent: oklch(0.7 0.25 260);
+  --success: oklch(0.65 0.15 155);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-roboto: var(--font-roboto);
+  --font-mono: var(--font-mono);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +24,7 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  /* background: var(--background); */
+  /* color: var(--foreground); */
   font-family: Arial, Helvetica, sans-serif;
 }
