@@ -5,11 +5,11 @@ import { usePathname } from 'next/navigation';
 
 const Footer = () => {
    const pathname = usePathname()
-    const isAuthPage =pathname.startsWith('/authentication') || pathname.startsWith('/dashboard')
+    const isAuthPage =pathname.startsWith('/authentication') || pathname.startsWith('/dashboard') || pathname.startsWith("/matches")
   
     if (isAuthPage) return ""
   return (
-    <footer className="border-t bg-emerald-500/10 border-slate-800/60 ">
+    <footer className="border-t bg-emerald-500/10 border-slate-800/60 font-mono">
       
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
       <div className="flex items-center gap-2">

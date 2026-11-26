@@ -21,8 +21,8 @@ export default function Navbar() {
 
   const navItems = [
     { to: "/dashboard", label: "Rivalries", icon: HomeIcon },
-    { to: "/dashboard/matches", label: "Matches", icon: CalendarDays },
-    { to: "/dashboard/create", label: "Open a Bet", icon: Plus },
+    { to: "/matches", label: "Matches", icon: CalendarDays },
+    { to: "/open-bet", label: "Open a Bet", icon: Plus },
     { to: "/dashboard/profile", label: "My Bets", icon: User },
   ];
 

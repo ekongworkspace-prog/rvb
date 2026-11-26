@@ -5,7 +5,7 @@ import { ArrowRight, Plus, Swords, TrendingUp, Users } from "lucide-react";
 import PhoneMockup from "./PhoneMockup";
 
 const Hero = () => {
-    return (
+  return (
     <section className="relative overflow-hidden font-mono">
       <div className="absolute -right-20 -top-20 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl" />
       <div className="absolute -left-20 top-40 w-72 h-72 bg-emerald-500/5 rounded-full blur-3xl" />
@@ -44,7 +44,7 @@ const Hero = () => {
       </div>
     </section>
 
-    )
+  )
 }
 
 export default Hero
